@@ -1,25 +1,40 @@
-﻿
-Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.9.34616.47
-MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BT1", "BT1\BT1.csproj", "{73987E85-4C17-4AA0-8500-DA196BC72BD2}"
-EndProject
-Global
-	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-		Debug|Any CPU = Debug|Any CPU
-		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{73987E85-4C17-4AA0-8500-DA196BC72BD2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{73987E85-4C17-4AA0-8500-DA196BC72BD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{73987E85-4C17-4AA0-8500-DA196BC72BD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{73987E85-4C17-4AA0-8500-DA196BC72BD2}.Release|Any CPU.Build.0 = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {DF5B8FDE-7A70-4AB9-B469-C432A6AF85DD}
-	EndGlobalSection
-EndGlobal
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="container">
+    <h1 class="text-center my-4">Personal Information</h1>
+
+    <div class="card w-50 mx-auto">
+        <img src="https://img.freepik.com/premium-photo/portrait-handsome-asian-man-image-generated-by-ai_803126-1222.jpg" class="rounded-circle mx-auto mt-3" alt="Profile Picture" style="width: 150px; height: 150px;">
+        <div class="card-body">
+            <h5 class="card-title text-center">Profile</h5>
+            <hr />
+            <dl class="row">
+                <dt class="col-sm-4">Full Name:</dt>
+                <dd class="col-sm-8">Lư Tiền Thắng</dd>
+
+                <dt class="col-sm-4">Student ID:</dt>
+                <dd class="col-sm-8">2100007107</dd>
+
+                <dt class="col-sm-4">Birthdate:</dt>
+                <dd class="col-sm-8">March 15, 2003</dd>
+
+                <dt class="col-sm-4">Email:</dt>
+                <dd class="col-sm-8">2100007107@nttu.edu.vn</dd>
+
+                <dt class="col-sm-4">Hobbies:</dt>
+                <dd class="col-sm-8">
+                    <ul>
+                        <li>Gaming</li>
+                        <li>Learning</li>
+                        <li>Running</li>
+                        <li>Swimming</li>
+                        <li>Boxing</li>
+                        <li>Gyming</li>
+                    </ul>
+                </dd>
+            </dl>
+        </div>
+    </div>
+</div>
